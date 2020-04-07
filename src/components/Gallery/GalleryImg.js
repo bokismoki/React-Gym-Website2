@@ -18,11 +18,11 @@ const styles = css`
   &:hover {
     .overlay {
       opacity: 1;
-      transition: opacity 700ms ease-in-out;
     }
   }
   .overlay {
     opacity: 0;
+    transition: opacity 700ms ease-in-out;
   }
   img {
     width: 100%;
