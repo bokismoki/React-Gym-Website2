@@ -15,11 +15,13 @@ const TrainerCard = ({ trainerName, trainerGender, trainerImg }) => (
 
 const styles = css`
   color: #fff;
+  .cardOverlay {
+    transition: opacity 400ms ease-in-out, height 400ms ease-in-out;
+  }
   &:hover {
     .cardOverlay {
       opacity: 1;
       height: 100%;
-      transition: opacity 400ms ease-in-out, height 400ms ease-in-out;
     }
   }
   .trainerImg {
